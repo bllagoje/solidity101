@@ -91,5 +91,4 @@ contract ItemManager is Ownable {
         emit SupplyChainStep(_itemIndex, uint(items[_itemIndex]._state), address(items[_itemIndex]._item));
     }
 
-
 }
